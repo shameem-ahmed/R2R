@@ -68,17 +68,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\Logic\LogicIf.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Logic\LogicIf.Designer.cs">
+      <DependentUpon>LogicIf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Logic\LogicIfProp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Logic\LogicIfProp.Designer.cs">
+      <DependentUpon>LogicIfProp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Web\HPLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Web\HPLogin.Designer.cs">
+      <DependentUpon>HPLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Web\HPLoginProp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Web\HPLoginProp.Designer.cs">
+      <DependentUpon>HPLoginProp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="HPWebLogin.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="HPWebLogin.Designer.cs">
-      <DependentUpon>HPWebLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="MageshBox.cs">
       <SubType>UserControl</SubType>
@@ -94,11 +112,20 @@
     <Compile Include="rfMain.Designer.cs">
       <DependentUpon>rfMain.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Controls\Logic\LogicIf.resx">
+      <DependentUpon>LogicIf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Logic\LogicIfProp.resx">
+      <DependentUpon>LogicIfProp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Web\HPLogin.resx">
+      <DependentUpon>HPLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Web\HPLoginProp.resx">
+      <DependentUpon>HPLoginProp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HPWebLogin.resx">
-      <DependentUpon>HPWebLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MageshBox.resx">
       <DependentUpon>MageshBox.cs</DependentUpon>
@@ -183,6 +210,127 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8_Variable2_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\DB\" />
+    <Folder Include="Controls\Email\" />
+    <Folder Include="Controls\Excel\" />
+    <Folder Include="Controls\Pdf\" />
+    <Folder Include="Controls\SAP\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\while01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sap01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Variable2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Variable.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Table.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Submit_for_Approval.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Star_Filled.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Settings.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_SAP2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_SAP.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Price_Tag.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Play.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Paste.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_New_Post.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_New_File.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_New_Copy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Login.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Linked_Mailbox.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Form.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cut.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Copy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Attach.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Add_File.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\for02.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\for01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\element01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dbdata01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dbconn01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dbcmd01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collection01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\click01.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assign01.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

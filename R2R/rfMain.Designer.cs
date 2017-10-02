@@ -50,6 +50,20 @@
             Telerik.WinControls.UI.RadTreeNode radTreeNode18 = new Telerik.WinControls.UI.RadTreeNode();
             Telerik.WinControls.UI.RadTreeNode radTreeNode19 = new Telerik.WinControls.UI.RadTreeNode();
             Telerik.WinControls.UI.RadTreeNode radTreeNode20 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode21 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode22 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode23 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode24 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode25 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode26 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode27 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode28 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode29 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode30 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode31 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode32 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode33 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode34 = new Telerik.WinControls.UI.RadTreeNode();
             this.aquaTheme1 = new Telerik.WinControls.Themes.AquaTheme();
             this.desertTheme1 = new Telerik.WinControls.Themes.DesertTheme();
             this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
@@ -81,6 +95,7 @@
             this.radDock1 = new Telerik.WinControls.UI.Docking.RadDock();
             this.documentWindow3 = new Telerik.WinControls.UI.Docking.DocumentWindow();
             this.rtvComponents = new Telerik.WinControls.UI.RadTreeView();
+            this.il16 = new System.Windows.Forms.ImageList(this.components);
             this.documentContainer1 = new Telerik.WinControls.UI.Docking.DocumentContainer();
             this.documentTabStrip2 = new Telerik.WinControls.UI.Docking.DocumentTabStrip();
             this.documentWindow2 = new Telerik.WinControls.UI.Docking.DocumentWindow();
@@ -89,11 +104,9 @@
             this.documentContainer3 = new Telerik.WinControls.UI.Docking.DocumentContainer();
             this.splitPanel3 = new Telerik.WinControls.UI.SplitPanel();
             this.radDock2 = new Telerik.WinControls.UI.Docking.RadDock();
-            this.documentWindow1 = new Telerik.WinControls.UI.Docking.DocumentWindow();
-            this.rpgComponent = new Telerik.WinControls.UI.RadPropertyGrid();
+            this.dwProp = new Telerik.WinControls.UI.Docking.DocumentWindow();
             this.documentContainer2 = new Telerik.WinControls.UI.Docking.DocumentContainer();
             this.documentTabStrip1 = new Telerik.WinControls.UI.Docking.DocumentTabStrip();
-            this.il16 = new System.Windows.Forms.ImageList(this.components);
             this.il32 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.radRibbonBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
@@ -117,8 +130,6 @@
             this.splitPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radDock2)).BeginInit();
             this.radDock2.SuspendLayout();
-            this.documentWindow1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.rpgComponent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentContainer2)).BeginInit();
             this.documentContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.documentTabStrip1)).BeginInit();
@@ -398,109 +409,225 @@
             this.rtvComponents.Name = "rtvComponents";
             radTreeNode1.Name = "Node2";
             radTreeNode1.Text = "Recent";
+            radTreeNode2.ImageKey = "";
             radTreeNode2.Name = "Node20";
             radTreeNode2.Text = "Favorites";
             radTreeNode3.Expanded = true;
+            radTreeNode3.ImageKey = "";
             radTreeNode3.Name = "Node3";
-            radTreeNode4.Expanded = true;
-            radTreeNode4.Name = "Node4";
+            radTreeNode4.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode4.Image")));
+            radTreeNode4.ImageKey = "icons8_Login.ico";
+            radTreeNode4.Name = "Node13";
+            radTreeNode4.Tag = "Web.HPLogin";
+            radTreeNode4.Text = "HP Login";
             radTreeNode5.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode5.Image")));
-            radTreeNode5.ImageIndex = 6;
-            radTreeNode5.Name = "Node5";
-            radTreeNode5.Text = "Web Login";
+            radTreeNode5.ImageKey = "element01.ico";
+            radTreeNode5.Name = "Node14";
+            radTreeNode5.Text = "Get Text";
             radTreeNode6.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode6.Image")));
-            radTreeNode6.ImageIndex = 19;
-            radTreeNode6.Name = "Node17";
-            radTreeNode6.Text = "Get HTML Table";
+            radTreeNode6.ImageKey = "element01.ico";
+            radTreeNode6.Name = "Node15";
+            radTreeNode6.Text = "Get Value";
             radTreeNode7.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode7.Image")));
-            radTreeNode7.ImageIndex = 12;
-            radTreeNode7.Name = "Node18";
-            radTreeNode7.Text = "Get Element";
+            radTreeNode7.ImageKey = "click01.ico";
+            radTreeNode7.Name = "Node16";
+            radTreeNode7.Text = "Click";
             radTreeNode8.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode8.Image")));
-            radTreeNode8.ImageKey = "icons8_Form_16.png";
-            radTreeNode8.Name = "Node19";
-            radTreeNode8.Text = "Fill Form";
-            radTreeNode9.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode9.Image")));
-            radTreeNode9.ImageKey = "icons8_Submit_for_Approval_16.png";
-            radTreeNode9.Name = "Node20";
-            radTreeNode9.Text = "Submit Form";
-            radTreeNode4.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
+            radTreeNode8.ImageKey = "collection01.ico";
+            radTreeNode8.Name = "Get Collection";
+            radTreeNode8.Text = "Node17";
+            radTreeNode3.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
+            radTreeNode4,
             radTreeNode5,
             radTreeNode6,
             radTreeNode7,
-            radTreeNode8,
-            radTreeNode9});
-            radTreeNode4.Text = "HP";
-            radTreeNode10.Expanded = true;
-            radTreeNode10.Name = "Node6";
+            radTreeNode8});
+            radTreeNode3.Text = "Web";
+            radTreeNode9.Expanded = true;
+            radTreeNode9.ImageKey = "";
+            radTreeNode9.Name = "Node9";
+            radTreeNode10.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode10.Image")));
+            radTreeNode10.ImageKey = "assign01.ico";
+            radTreeNode10.Name = "Node18";
+            radTreeNode10.Text = "Assign";
             radTreeNode11.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode11.Image")));
-            radTreeNode11.ImageIndex = 14;
-            radTreeNode11.ImageKey = "";
-            radTreeNode11.Name = "Node7";
-            radTreeNode11.Text = "SAP Login";
+            radTreeNode11.ImageKey = "if01.ico";
+            radTreeNode11.Name = "Node19";
+            radTreeNode11.Tag = "Logic.If";
+            radTreeNode11.Text = "If";
             radTreeNode12.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode12.Image")));
-            radTreeNode12.ImageKey = "icons8_SAP_16.png";
-            radTreeNode12.Name = "Node8";
-            radTreeNode12.Text = "Run Transaction";
-            radTreeNode10.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
+            radTreeNode12.ImageKey = "for02.ico";
+            radTreeNode12.Name = "Node20";
+            radTreeNode12.Text = "For";
+            radTreeNode13.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode13.Image")));
+            radTreeNode13.ImageKey = "while01.ico";
+            radTreeNode13.Name = "Node21";
+            radTreeNode13.Text = "While";
+            radTreeNode9.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
+            radTreeNode10,
             radTreeNode11,
-            radTreeNode12});
-            radTreeNode10.Text = "SAP";
-            radTreeNode13.Expanded = true;
-            radTreeNode13.Name = "Node9";
-            radTreeNode14.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode14.Image")));
-            radTreeNode14.ImageIndex = 5;
-            radTreeNode14.ImageKey = "";
-            radTreeNode14.Name = "Node10";
-            radTreeNode14.Text = "Exchange Login";
+            radTreeNode12,
+            radTreeNode13});
+            radTreeNode9.Text = "Logic";
+            radTreeNode14.Expanded = true;
+            radTreeNode14.Name = "Node14";
             radTreeNode15.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode15.Image")));
-            radTreeNode15.ImageKey = "icons8_New_Post_16.png";
-            radTreeNode15.Name = "Node11";
-            radTreeNode15.Text = "Get Emails";
+            radTreeNode15.ImageKey = "dbconn01.ico";
+            radTreeNode15.Name = "Node19";
+            radTreeNode15.Text = "Connect To Database";
             radTreeNode16.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode16.Image")));
-            radTreeNode16.ImageKey = "icons8_Linked_Mailbox_16.png";
-            radTreeNode16.Name = "Node12";
-            radTreeNode16.Text = "Check For New Emails";
+            radTreeNode16.ImageKey = "dbcmd01.ico";
+            radTreeNode16.Name = "Node20";
+            radTreeNode16.Text = "Run Command";
             radTreeNode17.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode17.Image")));
-            radTreeNode17.ImageKey = "icons8_New_Post_16.png";
-            radTreeNode17.Name = "Node13";
-            radTreeNode17.Text = "Send Email";
-            radTreeNode18.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode18.Image")));
-            radTreeNode18.ImageKey = "icons8_Linked_Mailbox_16.png";
-            radTreeNode18.Name = "Node14";
-            radTreeNode18.Text = "Read Email";
-            radTreeNode19.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode19.Image")));
-            radTreeNode19.ImageKey = "icons8_New_Post_16.png";
-            radTreeNode19.Name = "Node15";
-            radTreeNode19.Text = "Read Email Attachments";
-            radTreeNode20.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode20.Image")));
-            radTreeNode20.ImageKey = "icons8_Linked_Mailbox_16.png";
-            radTreeNode20.Name = "Node16";
-            radTreeNode20.Text = "Delete Email";
-            radTreeNode13.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
-            radTreeNode14,
+            radTreeNode17.ImageKey = "dbdata01.ico";
+            radTreeNode17.Name = "Node21";
+            radTreeNode17.Text = "Get Data";
+            radTreeNode14.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
             radTreeNode15,
             radTreeNode16,
-            radTreeNode17,
-            radTreeNode18,
+            radTreeNode17});
+            radTreeNode14.Text = "DB";
+            radTreeNode18.Expanded = true;
+            radTreeNode18.Name = "Node15";
+            radTreeNode19.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode19.Image")));
+            radTreeNode19.ImageKey = "pdf01.ico";
+            radTreeNode19.Name = "Node22";
+            radTreeNode19.Text = "Convert to Text";
+            radTreeNode20.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode20.Image")));
+            radTreeNode20.ImageKey = "pdf01.ico";
+            radTreeNode20.Name = "Node23";
+            radTreeNode20.Text = "Convert to HTML";
+            radTreeNode18.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
             radTreeNode19,
             radTreeNode20});
-            radTreeNode13.Text = "GMB";
-            radTreeNode3.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
-            radTreeNode4,
-            radTreeNode10,
-            radTreeNode13});
-            radTreeNode3.Text = "Common";
+            radTreeNode18.Text = "Pdf";
+            radTreeNode21.Expanded = true;
+            radTreeNode21.Name = "Node16";
+            radTreeNode22.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode22.Image")));
+            radTreeNode22.ImageKey = "excel01.ico";
+            radTreeNode22.Name = "Node24";
+            radTreeNode22.Text = "Open Workbook";
+            radTreeNode23.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode23.Image")));
+            radTreeNode23.ImageKey = "excel01.ico";
+            radTreeNode23.Name = "Node25";
+            radTreeNode23.Text = "Create Sheet";
+            radTreeNode24.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode24.Image")));
+            radTreeNode24.ImageKey = "excel01.ico";
+            radTreeNode24.Name = "Node31";
+            radTreeNode24.Text = "Get Sheet";
+            radTreeNode25.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode25.Image")));
+            radTreeNode25.ImageKey = "excel01.ico";
+            radTreeNode25.Name = "Node32";
+            radTreeNode25.Text = "Delete Sheet";
+            radTreeNode26.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode26.Image")));
+            radTreeNode26.ImageKey = "excel01.ico";
+            radTreeNode26.Name = "Node33";
+            radTreeNode26.Text = "Get Data";
+            radTreeNode27.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode27.Image")));
+            radTreeNode27.ImageKey = "excel01.ico";
+            radTreeNode27.Name = "Node34";
+            radTreeNode27.Text = "Set Data";
+            radTreeNode21.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
+            radTreeNode22,
+            radTreeNode23,
+            radTreeNode24,
+            radTreeNode25,
+            radTreeNode26,
+            radTreeNode27});
+            radTreeNode21.Text = "Excel";
+            radTreeNode28.Expanded = true;
+            radTreeNode28.Name = "Node17";
+            radTreeNode29.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode29.Image")));
+            radTreeNode29.ImageKey = "email01.ico";
+            radTreeNode29.Name = "Node26";
+            radTreeNode29.Text = "Login";
+            radTreeNode30.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode30.Image")));
+            radTreeNode30.ImageKey = "email01.ico";
+            radTreeNode30.Name = "Node27";
+            radTreeNode30.Text = "Get Emails";
+            radTreeNode28.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
+            radTreeNode29,
+            radTreeNode30});
+            radTreeNode28.Text = "Email";
+            radTreeNode31.Expanded = true;
+            radTreeNode31.Name = "Node18";
+            radTreeNode32.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode32.Image")));
+            radTreeNode32.ImageKey = "sap01.ico";
+            radTreeNode32.Name = "Node28";
+            radTreeNode32.Text = "Login";
+            radTreeNode33.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode33.Image")));
+            radTreeNode33.ImageKey = "sap01.ico";
+            radTreeNode33.Name = "Node29";
+            radTreeNode33.Text = "Run Transaction";
+            radTreeNode34.Image = ((System.Drawing.Image)(resources.GetObject("radTreeNode34.Image")));
+            radTreeNode34.ImageKey = "sap01.ico";
+            radTreeNode34.Name = "Node30";
+            radTreeNode34.Text = "Get Data";
+            radTreeNode31.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
+            radTreeNode32,
+            radTreeNode33,
+            radTreeNode34});
+            radTreeNode31.Text = "SAP";
             this.rtvComponents.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
             radTreeNode1,
             radTreeNode2,
-            radTreeNode3});
+            radTreeNode3,
+            radTreeNode9,
+            radTreeNode14,
+            radTreeNode18,
+            radTreeNode21,
+            radTreeNode28,
+            radTreeNode31});
             this.rtvComponents.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.rtvComponents.Size = new System.Drawing.Size(262, 410);
             this.rtvComponents.TabIndex = 0;
             this.rtvComponents.Text = "radTreeView1";
             this.rtvComponents.ThemeName = "Office2013Light";
             this.rtvComponents.SelectedNodeChanged += new Telerik.WinControls.UI.RadTreeView.RadTreeViewEventHandler(this.rtvComponents_SelectedNodeChanged);
+            // 
+            // il16
+            // 
+            this.il16.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("il16.ImageStream")));
+            this.il16.TransparentColor = System.Drawing.Color.Transparent;
+            this.il16.Images.SetKeyName(0, "assign01.ico");
+            this.il16.Images.SetKeyName(1, "click01.ico");
+            this.il16.Images.SetKeyName(2, "collection01.ico");
+            this.il16.Images.SetKeyName(3, "dbcmd01.ico");
+            this.il16.Images.SetKeyName(4, "dbconn01.ico");
+            this.il16.Images.SetKeyName(5, "dbdata01.ico");
+            this.il16.Images.SetKeyName(6, "element01.ico");
+            this.il16.Images.SetKeyName(7, "email01.ico");
+            this.il16.Images.SetKeyName(8, "excel01.ico");
+            this.il16.Images.SetKeyName(9, "for01.ico");
+            this.il16.Images.SetKeyName(10, "for02.ico");
+            this.il16.Images.SetKeyName(11, "icons8_Add_File.ico");
+            this.il16.Images.SetKeyName(12, "icons8_Attach.ico");
+            this.il16.Images.SetKeyName(13, "icons8_Copy.ico");
+            this.il16.Images.SetKeyName(14, "icons8_Cut.ico");
+            this.il16.Images.SetKeyName(15, "icons8_Form.ico");
+            this.il16.Images.SetKeyName(16, "icons8_Linked_Mailbox.ico");
+            this.il16.Images.SetKeyName(17, "icons8_Login.ico");
+            this.il16.Images.SetKeyName(18, "icons8_New_Copy.ico");
+            this.il16.Images.SetKeyName(19, "icons8_New_File.ico");
+            this.il16.Images.SetKeyName(20, "icons8_New_Post.ico");
+            this.il16.Images.SetKeyName(21, "icons8_Paste.ico");
+            this.il16.Images.SetKeyName(22, "icons8_Play.ico");
+            this.il16.Images.SetKeyName(23, "icons8_Price_Tag.ico");
+            this.il16.Images.SetKeyName(24, "icons8_SAP.ico");
+            this.il16.Images.SetKeyName(25, "icons8_SAP2.ico");
+            this.il16.Images.SetKeyName(26, "icons8_Save.ico");
+            this.il16.Images.SetKeyName(27, "icons8_Settings.ico");
+            this.il16.Images.SetKeyName(28, "icons8_Star_Filled.ico");
+            this.il16.Images.SetKeyName(29, "icons8_Submit_for_Approval.ico");
+            this.il16.Images.SetKeyName(30, "icons8_Table.ico");
+            this.il16.Images.SetKeyName(31, "icons8_Variable.ico");
+            this.il16.Images.SetKeyName(32, "icons8_Variable2.ico");
+            this.il16.Images.SetKeyName(33, "if01.ico");
+            this.il16.Images.SetKeyName(34, "login01.ico");
+            this.il16.Images.SetKeyName(35, "pdf01.ico");
+            this.il16.Images.SetKeyName(36, "sap01.ico");
+            this.il16.Images.SetKeyName(37, "while01.ico");
             // 
             // documentContainer1
             // 
@@ -610,7 +737,7 @@
             // 
             // radDock2
             // 
-            this.radDock2.ActiveWindow = this.documentWindow1;
+            this.radDock2.ActiveWindow = this.dwProp;
             this.radDock2.Controls.Add(this.documentContainer2);
             this.radDock2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radDock2.IsCleanUpTarget = true;
@@ -629,27 +756,15 @@
             this.radDock2.Text = "radDock2";
             this.radDock2.ThemeName = "Office2013Dark";
             // 
-            // documentWindow1
+            // dwProp
             // 
-            this.documentWindow1.AllowDrop = true;
-            this.documentWindow1.Controls.Add(this.rpgComponent);
-            this.documentWindow1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.documentWindow1.Location = new System.Drawing.Point(5, 5);
-            this.documentWindow1.Name = "documentWindow1";
-            this.documentWindow1.PreviousDockState = Telerik.WinControls.UI.Docking.DockState.TabbedDocument;
-            this.documentWindow1.Size = new System.Drawing.Size(273, 410);
-            this.documentWindow1.Text = "Properties";
-            // 
-            // rpgComponent
-            // 
-            this.rpgComponent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rpgComponent.HelpVisible = false;
-            this.rpgComponent.Location = new System.Drawing.Point(0, 0);
-            this.rpgComponent.Name = "rpgComponent";
-            this.rpgComponent.Size = new System.Drawing.Size(273, 410);
-            this.rpgComponent.TabIndex = 0;
-            this.rpgComponent.Text = "radPropertyGrid1";
-            this.rpgComponent.ThemeName = "Office2013Light";
+            this.dwProp.AllowDrop = true;
+            this.dwProp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dwProp.Location = new System.Drawing.Point(5, 5);
+            this.dwProp.Name = "dwProp";
+            this.dwProp.PreviousDockState = Telerik.WinControls.UI.Docking.DockState.TabbedDocument;
+            this.dwProp.Size = new System.Drawing.Size(273, 410);
+            this.dwProp.Text = "Properties";
             // 
             // documentContainer2
             // 
@@ -665,7 +780,7 @@
             // documentTabStrip1
             // 
             this.documentTabStrip1.CanUpdateChildIndex = true;
-            this.documentTabStrip1.Controls.Add(this.documentWindow1);
+            this.documentTabStrip1.Controls.Add(this.dwProp);
             this.documentTabStrip1.Location = new System.Drawing.Point(0, 0);
             this.documentTabStrip1.Name = "documentTabStrip1";
             // 
@@ -678,33 +793,6 @@
             this.documentTabStrip1.TabStop = false;
             this.documentTabStrip1.TabStripAlignment = Telerik.WinControls.UI.TabStripAlignment.Bottom;
             this.documentTabStrip1.ThemeName = "Office2013Dark";
-            // 
-            // il16
-            // 
-            this.il16.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("il16.ImageStream")));
-            this.il16.TransparentColor = System.Drawing.Color.Transparent;
-            this.il16.Images.SetKeyName(0, "icons8_Add_File_16.png");
-            this.il16.Images.SetKeyName(1, "icons8_Attach_16.png");
-            this.il16.Images.SetKeyName(2, "icons8_Copy_16.png");
-            this.il16.Images.SetKeyName(3, "icons8_Cut_16.png");
-            this.il16.Images.SetKeyName(4, "icons8_Form_16.png");
-            this.il16.Images.SetKeyName(5, "icons8_Linked_Mailbox_16.png");
-            this.il16.Images.SetKeyName(6, "icons8_Login_16.png");
-            this.il16.Images.SetKeyName(7, "icons8_New_Copy_16.png");
-            this.il16.Images.SetKeyName(8, "icons8_New_File_16.png");
-            this.il16.Images.SetKeyName(9, "icons8_New_Post_16.png");
-            this.il16.Images.SetKeyName(10, "icons8_Paste_16.png");
-            this.il16.Images.SetKeyName(11, "icons8_Play_16.png");
-            this.il16.Images.SetKeyName(12, "icons8_Price_Tag_16.png");
-            this.il16.Images.SetKeyName(13, "icons8_SAP_16.png");
-            this.il16.Images.SetKeyName(14, "icons8_SAP2_16.png");
-            this.il16.Images.SetKeyName(15, "icons8_Save_16.png");
-            this.il16.Images.SetKeyName(16, "icons8_Settings_16.png");
-            this.il16.Images.SetKeyName(17, "icons8_Star_Filled_16.png");
-            this.il16.Images.SetKeyName(18, "icons8_Submit_for_Approval_16.png");
-            this.il16.Images.SetKeyName(19, "icons8_Table_16.png");
-            this.il16.Images.SetKeyName(20, "icons8_Variable_16.png");
-            this.il16.Images.SetKeyName(21, "icons8_Variable2_16.png");
             // 
             // il32
             // 
@@ -763,8 +851,6 @@
             this.splitPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.radDock2)).EndInit();
             this.radDock2.ResumeLayout(false);
-            this.documentWindow1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.rpgComponent)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentContainer2)).EndInit();
             this.documentContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.documentTabStrip1)).EndInit();
@@ -803,7 +889,7 @@
         private Telerik.WinControls.UI.Docking.RadDock radDock1;
         private Telerik.WinControls.UI.Docking.DocumentContainer documentContainer1;
         private Telerik.WinControls.UI.Docking.RadDock radDock2;
-        private Telerik.WinControls.UI.Docking.DocumentWindow documentWindow1;
+        private Telerik.WinControls.UI.Docking.DocumentWindow dwProp;
         private Telerik.WinControls.UI.Docking.DocumentContainer documentContainer2;
         private Telerik.WinControls.UI.Docking.DocumentTabStrip documentTabStrip1;
         private Telerik.WinControls.UI.Docking.DocumentWindow documentWindow2;
@@ -812,7 +898,6 @@
         private Telerik.WinControls.UI.RadTreeView rtvComponents;
         private Telerik.WinControls.UI.Docking.RadDock rdMain;
         private Telerik.WinControls.UI.Docking.DocumentContainer documentContainer3;
-        private Telerik.WinControls.UI.RadPropertyGrid rpgComponent;
         private Telerik.WinControls.UI.RadRibbonBarGroup radRibbonBarGroup2;
         private Telerik.WinControls.UI.RadButtonElement radButtonElement3;
         private Telerik.WinControls.UI.RadButtonElement radButtonElement4;
